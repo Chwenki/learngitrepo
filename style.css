@@ -3,6 +3,7 @@ body {
     border: 0;
     margin: 0;
     outline: 0;
+    background-color: rgba(255, 254, 247, 0.945);
 }
 #top {
     background-color: rgb(20, 33, 219);
@@ -11,25 +12,40 @@ body {
     justify-content: space-between;
     height: 40px;
     font-size: 12px;
+    padding: 0px 40px 0px;
 }
 #top #t1 {
-    color: black;
+    color: white;
     text-align: left;
 }
 #top #t2 {
-    color: black;
+    color: white;
     text-align: right;
 }
 #navbar {
     display: grid;
-    grid-template-columns: 5% 5% 5% 50% 35%;
+    grid-template-columns: 5% 5% 5% 50% 5% 5% 5% 5% 15%;
     align-items: center;
     text-align: center;
-    background-color: white;
-    color: white;
     font-size: 12px;
     height: 80px;
-    border-bottom: 3px solid rgb(112, 112, 112);
+    background-color: rgba(255, 254, 247, 0.945);
+    padding: 0px 32px 0px;
+}
+#nav {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 70%;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    height: 80px;
+    background-color: rgba(255, 254, 247, 0.945);
+    padding: 0px 32px 0px;
+    font-size: 10px;
+}
+#nav a {
+    color: gray;
+    text-decoration: none;
 }
 h1 {
     color: blue;
@@ -38,4 +54,67 @@ h1 {
 #navbar a {
     text-decoration: none;
     color: black;
+}
+
+#product {
+    display: grid;
+    grid-template-columns: 10% 45% 45%;
+    padding: 20px;
+    font-size: 14px;
+}
+#productimg img{
+    width: 160%;
+}
+#productimg1 img{
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    margin-left: 60px;
+}
+#productimg1 {
+    height: 800px;
+    margin: 0px 30px 0px;
+    
+}
+#productname {
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+#productreview i {
+    color: rgb(2, 2, 126);
+}
+#productreview {
+    display: grid;
+    grid-template-columns: 20% 75%;
+    align-items: center;
+}
+#productdetails {
+    padding: 0;
+}
+#productsize {
+    display: grid;
+    grid-template-columns: 20% 16.5% 16.5% 16.5% 16.5% 14%;
+}
+#productsg {
+    display: grid;
+    grid-template-columns: 5% 95%;
+    align-items: center;
+}
+#productform form{
+    display:flex;
+    justify-content: left;
+    
+}
+#productform input{
+    width: 40%;
+    outline: none;
+    color: black;
+    padding: 20px 50px 20px 20px;
+    border: none;
+    background-color: rgb(243, 242, 168);
+}
+
+#productform form button {
+    height: 150%;
+    width: 40%;
 }
