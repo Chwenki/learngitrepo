@@ -1,1 +1,0 @@
-# Resume de la journee du 02072025 chez les Numeriques SARL
