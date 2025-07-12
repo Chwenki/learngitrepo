@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS Order History - Official Tailwind UI Components</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/2139c11586.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body style="font-family: Inter">
+    <nav>
+      <div
+        class="flex flex-row justify-between p-4 items-center"
+      >
+        <div>
+          <img
+            class="w-[250px] cursor-pointer"
+            href="#"
+            src="img/logo.png"
+            alt=""
+          />
+        </div>
+        <div>
+          <ul
+            class="list-none flex flex-row gap-10 justify-between align-middle items-center text-sm"
+          >
+            <li class="relative">
+              <div class="relative">
+                <i
+                  class="fa fa-search absolute left-3 top-1/2 -translate-y-1/2 lg:text-gray-400 md:text-black cursor-pointer"
+                ></i>
+                <input
+                  type="text"
+                  placeholder="Ctrl K"
+                  class="hidden border-black bg-gray-100 pl-10 py-2 rounded-4xl max-w-25 w-full sm:hidden md:hidden lg:block xl:block"
+                />
+              </div>
+            </li>
+            <li>
+              <span class="sm:block md:block lg:hidden xl:hidden"
+              ><i class="fa fa-ellipsis-v cursor-pointer" aria-hidden="true"></i
+            ></span>
+            </li>
+            <li class="hidden sm:hidden md:hidden lg:block xl:block"><a href="#">UI Blocks</a></li>
+            <li class="hidden sm:hidden md:hidden lg:block xl:block"><a href="#">Templates</a></li>
+            <li class="hidden sm:hidden md:hidden lg:block xl:block"><a href="#">UI Kit</a></li>
+            <li class="hidden sm:hidden md:hidden lg:block xl:block">|</li>
+            <li class="hidden sm:hidden md:hidden lg:block xl:block"><a href="#">Sign in</a></li>
+            <li class="hidden sm:hidden md:hidden lg:block xl:block">
+              <button
+                class="bg-black text-white px-2 py-1 rounded-4xl cursor-pointer"
+              >
+                Get full access
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <ul class="flex flex-row gap-2 px-6 py-3 text-sm">
+          <li><i class="fa fa-bars" aria-hidden="true"></i></li>
+          <li class="text-gray-500 min-w-17">UI Blocks</li>
+          <li>></li>
+          <li class="text-gray-500">Ecommerce</li>
+          <li>></li>
+          <li>Components</li>
+        </ul>
+      </div>
+    </nav>
+    <header class="mt-18 mx-3">
+      <div class="border-gray-300 border-1 rounded-2xl py-25 lg:px-15 md:px-0 mb-10 max-w-400">
+        <div class="lg:w-220 mx-auto md:w-150 px-5 md:px-0">
+          <h1 class="text-3xl font-bold pb-1 text-gray-900">Order history</h1>
+          <p class="text-sm text-gray-500">
+            Check the status of recent orders, manage returns, and discover
+            similar products.
+          </p>
+        </div>
+
+
+        <div
+          class="my-16 border-y-1 border-y-gray-300 sm:border-gray-300 md:border-1 lg:w-220 sm:mx-auto md:rounded-2xl p-10 text-sm sm:shadow-sm md:w-150
+          "
+        >
+          <div class="flex flex-row gap-26 justify-between items-center  border-b-gray-200 border-b-1 pb-10">
+            <div class="flex flex-row gap-8">
+              <div class="min-w-25">
+                <p>Order number</p>
+                <p class="text-gray-600">WU88191111</p>
+              </div>
+              <div class="min-w-25 hidden sm:block">
+                <p>Date placed</p>
+                <p class="text-gray-600">Jul 6, 2021</p>
+              </div>
+              <div class="min-w-25">
+                <p>Total amount</p>
+                <p>$160.00</p>
+              </div>
+            </div>
+            <div class="xl:flex flex-row gap-5 pr-1 lg:flex md:hidden sm:hidden hidden">
+              <button
+                class="min-w-25 border-1 rounded-xl p-2 border-gray-400 hover:bg-gray-200 shadow-sm cursor-pointer"
+              >
+                View Order
+              </button>
+              <button
+                class="min-w-26 border-1 rounded-xl p-2 border-gray-400 hover:bg-gray-200 shadow-sm cursor-pointer"
+              >
+                View Invoice
+              </button>
+            </div>
+            <span class="sm:block md:block lg:hidden xl:hidden"
+              ><i class="fa fa-ellipsis-v text-gray-500 text-xl hover:text-gray-700 cursor-pointer" aria-hidden="true"></i
+            ></span>
+          </div>
+          <div class="flex flex-row items-center gap-5 py-10">
+            <img
+              class="h-20 max-w-20 object-cover rounded-2xl sm:max-w-[170px] md:sm:max-w-[170px]"
+              src="img/greenbag.jpg" draggable="false"
+              alt=""
+            />
+            <div class="flex w-full flex-col">
+              <div class="flex flex-col md:flex-row w-full justify-between">
+                <p class="font-bold pb-3 md:pb-0">Micro Backpack</p>
+                <p>$70.00</p>
+              </div>
+              <div>
+                <p class="pt-3 hidden md:block">
+                  Are you a minimalist looking for a compact carry option? The
+                  Micro Backpack is the perfect size for your essential everyday
+                  carry items. Wear it like a backpack or carry it like a
+                  satchel for all-day use.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col md:flex-row justify-between">
+            <p>
+              <i
+                class="fa fa-check text-white bg-green-400 rounded-full p-1 mr-2"
+                aria-hidden="true"
+              ></i
+              >Delivered on July 12, 2021
+            </p>
+            <div class="flex flex-row justify-between text-md pt-10 px-5 md:block md:pt-0 md:px-0">
+              <button class="text-blue-600 hover:text-blue-700 cursor-pointer">
+                View product
+              </button>
+              <p class="hidden md:inline">|</p>
+              <button class="text-blue-600 hover:text-blue-700 cursor-pointer">
+                Buy again
+              </button>
+            </div>
+          </div>
+
+
+          <div class="flex flex-row gap-5 py-10 border-t-gray-200 border-t-1 mt-5">
+            <img
+              class="h-20 max-w-20 object-cover rounded-2xl sm:max-w-[170px] md:sm:max-w-[170px]"
+              src="img/yellowbag.jpg" draggable="false"
+              alt=""
+            />
+            <div class="flex w-full flex-col">
+              <div class="flex flex-col md:flex-row w-full justify-between">
+                <p class="font-bold pb-3 md:pb-0">Nomad Shopping Tote</p>
+                <p>$90.00</p>
+              </div>
+              <div>
+                <p class="pt-3 hidden md:block">
+                  This durable shopping tote is perfect for the world traveler.
+                  Its yellow canvas construction is water, fray, tear resistant.
+                  The matching handle, backpack straps, and shoulder loops
+                  provide multiple carry options for a day out on your next
+                  adventure.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col md:flex-row justify-between">
+            <p>
+              <i
+                class="fa fa-check text-white bg-green-400 rounded-full p-1 mr-2"
+                aria-hidden="true"
+              ></i
+              >Delivered on July 12, 2021
+            </p>
+            <div class="flex flex-row justify-between text-md pt-10 px-5 md:block md:pt-0 md:px-0">
+              <button class="text-blue-600 hover:text-blue-700 cursor-pointer">
+                View product
+              </button>
+              <p class="hidden md:inline">|</p>
+              <button class="text-blue-600 hover:text-blue-700 cursor-pointer">
+                Buy again
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        <div
+        class="my-16 border-y-1 border-y-gray-300 md:border-gray-300 md:border-1 md:rounded-2xl p-10 text-sm shadow-sm lg:w-220 mx-auto md:w-150" 
+      >
+        <div class="flex flex-row gap-26 justify-between items-center">
+          <div class="flex flex-row gap-8">
+            <div class="min-w-25">
+              <p>Order number</p>
+              <p class="text-gray-600">AT48441546</p>
+            </div>
+            <div class="min-w-25 hidden sm:block">
+              <p>Date placed</p>
+              <p class="text-gray-600">Dec 22, 2020</p>
+            </div>
+            <div class="min-w-25">
+              <p>Total amount</p>
+              <p>$40.00</p>
+            </div>
+          </div>
+          <div class="xl:flex flex-row gap-5 pr-1 lg:flex md:hidden sm:hidden hidden">
+            <button
+              class="min-w-25 border-1 rounded-xl p-2 border-gray-400 hover:bg-gray-200 shadow-sm cursor-pointer"
+            >
+              View Order
+            </button>
+            <button
+              class="min-w-26 border-1 rounded-xl p-2 border-gray-400 hover:bg-gray-200 shadow-sm cursor-pointer"
+            >
+              View Invoice
+            </button>
+          </div>
+          <span class="sm:block md:block lg:hidden xl:hidden"
+              ><i class="fa fa-ellipsis-v text-gray-500 text-xl hover:text-gray-700 cursor-pointer" aria-hidden="true"></i
+            ></span>
+        </div>
+        <div class="flex flex-row gap-5 py-10">
+          <img
+            class="h-20 max-w-20 object-cover rounded-2xl sm:max-w-[170px] md:sm:max-w-[170px]"
+            src="img/blackbag.jpg" draggable="false"
+            alt=""
+          />
+          <div class="flex w-full flex-col">
+            <div class="flex flex-col md:flex-row w-full justify-between">
+              <p class="font-bold pb-3 md:pb-0">Double Stack Clothing Bag</p>
+              <p>$40.00</p>
+            </div>
+            <div>
+              <p class="pt-3 hidden md:block">
+                Save space and protect your favorite clothes in this double-layer garment bag. Each compartment easily holds multiple pairs of jeans or tops, while keeping your items neatly folded throughout your trip.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col md:flex-row justify-between">
+          <p>
+            <i
+              class="fa fa-check text-white bg-green-400 rounded-full p-1 mr-2"
+              aria-hidden="true"
+            ></i
+            >Delivered on January 5, 2021
+          </p>
+          <div class="flex flex-row justify-between text-md pt-10 px-5 md:block md:pt-0 md:px-0">
+            <button class="text-blue-600 hover:text-blue-700 cursor-pointer">
+              View product
+            </button>
+            <p class="hidden md:inline">|</p>
+            <button class="text-blue-600 hover:text-blue-700 cursor-pointer">
+              Buy again
+            </button>
+          </div>
+        </div>
+      </div>
+
+      
+    </header>
+  </body>
+</html>
