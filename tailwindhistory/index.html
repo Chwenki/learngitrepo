@@ -77,10 +77,10 @@
         </ul>
       </div>
     </nav>
-    <header class="mt-18 mx-3">
-      <div class="border-gray-300 border-1 rounded-2xl py-25 lg:px-15 md:px-0 mb-10 max-w-400">
-        <div class="lg:w-220 mx-auto md:w-150 px-5 md:px-0">
-          <h1 class="text-3xl font-bold pb-1 text-gray-900">Order history</h1>
+    <header class="mt-18 mx-6">
+      <div class="border-gray-200 border-1 rounded-md py-15 sm:py-25 mt-40  shadow-xs lg:px-15 md:px-0 mb-10 max-w-400">
+        <div class="mx-auto lg:mx-auto md:max-w-200 lg:max-w-220 px-4 md:px-0 md:px-0">
+          <h1 class="text-2xl font-bold pb-1 text-gray-900 md:text-3xl">Order history</h1>
           <p class="text-sm text-gray-500">
             Check the status of recent orders, manage returns, and discover
             similar products.
@@ -89,53 +89,53 @@
 
 
         <div
-          class="my-16 border-y-1 border-y-gray-300 sm:border-gray-300 md:border-1 lg:w-220 sm:mx-auto md:rounded-2xl p-10 text-sm sm:shadow-sm md:w-150
+          class="mt-16 border-y-1 border-y-gray-200 sm:border-gray-200 sm:mx-auto md:border-1 md:rounded-md shadow-xs py-4 text-sm md:max-w-200 md:mx-auto lg:max-w-220 lg:mx-auto
           "
         >
-          <div class="flex flex-row gap-26 justify-between items-center  border-b-gray-200 border-b-1 pb-10">
-            <div class="flex flex-row gap-8">
+          <div class="flex flex-row sm:gap-20 justify-between items-center border-b-gray-200 border-b-1 pb-4 max-w-300 px-4">
+            <div class="flex flex-row sm:gap-13">
               <div class="min-w-25">
-                <p>Order number</p>
+                <p class="font-medium pb-1">Order number</p>
                 <p class="text-gray-600">WU88191111</p>
               </div>
-              <div class="min-w-25 hidden sm:block">
-                <p>Date placed</p>
+              <div class="min-w-25 hidden md:block">
+                <p class="pb-1">Date placed</p>
                 <p class="text-gray-600">Jul 6, 2021</p>
               </div>
-              <div class="min-w-25">
-                <p>Total amount</p>
+              <div class="min-w-25 font-medium">
+                <p class="pb-1">Total amount</p>
                 <p>$160.00</p>
               </div>
             </div>
-            <div class="xl:flex flex-row gap-5 pr-1 lg:flex md:hidden sm:hidden hidden">
+            <div class="xl:flex flex-row gap-5 pr-1 lg:flex md:hidden sm:hidden hidden text-gray-800 font-medium">
               <button
-                class="min-w-25 border-1 rounded-xl p-2 border-gray-400 hover:bg-gray-200 shadow-sm cursor-pointer"
+                class="min-w-25 border-1 rounded-md p-2 border-gray-300 hover:bg-gray-100 shadow-xs cursor-pointer"
               >
                 View Order
               </button>
               <button
-                class="min-w-26 border-1 rounded-xl p-2 border-gray-400 hover:bg-gray-200 shadow-sm cursor-pointer"
+                class="min-w-26 border-1 rounded-md p-2 border-gray-300 hover:bg-gray-100 shadow-xs cursor-pointer"
               >
                 View Invoice
               </button>
             </div>
             <span class="sm:block md:block lg:hidden xl:hidden"
-              ><i class="fa fa-ellipsis-v text-gray-500 text-xl hover:text-gray-700 cursor-pointer" aria-hidden="true"></i
+              ><i class="fa fa-ellipsis-v text-gray-400 text-md hover:text-gray-500" aria-hidden="true"></i
             ></span>
           </div>
-          <div class="flex flex-row items-center gap-5 py-10">
+          <div class="flex flex-row items-center lg:items-start gap-5 p-4">
             <img
-              class="h-20 max-w-20 object-cover rounded-2xl sm:max-w-[170px] md:sm:max-w-[170px]"
+              class="h-20 max-w-20 object-cover rounded-2xl sm:max-w-[170px] md:w-40 md:h-40"
               src="img/greenbag.jpg" draggable="false"
               alt=""
             />
             <div class="flex w-full flex-col">
               <div class="flex flex-col md:flex-row w-full justify-between">
-                <p class="font-bold pb-3 md:pb-0">Micro Backpack</p>
+                <p class="font-semibold pb-3 md:pb-0 text-gray-900">Micro Backpack</p>
                 <p>$70.00</p>
               </div>
               <div>
-                <p class="pt-3 hidden md:block">
+                <p class="pt-3 text-gray-600 hidden md:block">
                   Are you a minimalist looking for a compact carry option? The
                   Micro Backpack is the perfect size for your essential everyday
                   carry items. Wear it like a backpack or carry it like a
@@ -144,39 +144,39 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-col md:flex-row justify-between">
-            <p>
+          <div class="flex flex-col md:flex-row justify-between px-4 md:items-center">
+            <p class="text-gray-500">
               <i
-                class="fa fa-check text-white bg-green-400 rounded-full p-1 mr-2"
+                class="fa fa-check text-xs text-white bg-green-400 rounded-full p-1 mr-2"
                 aria-hidden="true"
               ></i
               >Delivered on July 12, 2021
             </p>
-            <div class="flex flex-row justify-between text-md pt-10 px-5 md:block md:pt-0 md:px-0">
-              <button class="text-blue-600 hover:text-blue-700 cursor-pointer">
+            <div class="flex flex-row gap-5 border-t-1 text-blue-600 hover:text-blue-700 border-t-gray-200 justify-between font-medium text-md pt-4 mt-6 items-center md:mt-0 md:border-0 md:block md:pt-0 md:px-0">
+              <button class="cursor-pointer flex-1">
                 View product
               </button>
-              <p class="hidden md:inline">|</p>
-              <button class="text-blue-600 hover:text-blue-700 cursor-pointer">
+              <p class="md:inline sm:px-3 font-light text-gray-200 flex-1 text-center max-w-2">|</p>
+              <button class="cursor-pointer flex-1">
                 Buy again
               </button>
             </div>
           </div>
 
 
-          <div class="flex flex-row gap-5 py-10 border-t-gray-200 border-t-1 mt-5">
+          <div class="flex flex-row items-center lg:items-start gap-5 p-4 mt-5 border-t-1 border-t-gray-200">
             <img
-              class="h-20 max-w-20 object-cover rounded-2xl sm:max-w-[170px] md:sm:max-w-[170px]"
+              class="h-20 max-w-20 object-cover rounded-2xl sm:max-w-[170px] md:w-40 md:h-40"
               src="img/yellowbag.jpg" draggable="false"
               alt=""
             />
             <div class="flex w-full flex-col">
               <div class="flex flex-col md:flex-row w-full justify-between">
-                <p class="font-bold pb-3 md:pb-0">Nomad Shopping Tote</p>
+                <p class="font-semibold pb-3 md:pb-0 text-gray-900">Nomad Shopping Tote</p>
                 <p>$90.00</p>
               </div>
               <div>
-                <p class="pt-3 hidden md:block">
+                <p class="pt-3 text-gray-600 hidden md:block">
                   This durable shopping tote is perfect for the world traveler.
                   Its yellow canvas construction is water, fray, tear resistant.
                   The matching handle, backpack straps, and shoulder loops
@@ -186,20 +186,20 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-col md:flex-row justify-between">
-            <p>
+          <div class="flex flex-col md:flex-row justify-between px-4 md:items-center">
+            <p class="text-gray-500">
               <i
-                class="fa fa-check text-white bg-green-400 rounded-full p-1 mr-2"
+                class="fa fa-check text-xs text-white bg-green-400 rounded-full p-1 mr-2"
                 aria-hidden="true"
               ></i
               >Delivered on July 12, 2021
             </p>
-            <div class="flex flex-row justify-between text-md pt-10 px-5 md:block md:pt-0 md:px-0">
-              <button class="text-blue-600 hover:text-blue-700 cursor-pointer">
+            <div class="flex flex-row gap-5 border-t-1 text-blue-600 hover:text-blue-700 border-t-gray-200 justify-between font-medium text-md pt-4 mt-6 items-center md:mt-0 md:border-0 md:block md:pt-0 md:px-0">
+              <button class="cursor-pointer flex-1">
                 View product
               </button>
-              <p class="hidden md:inline">|</p>
-              <button class="text-blue-600 hover:text-blue-700 cursor-pointer">
+              <p class="md:inline sm:px-3 font-light text-gray-200 flex-1 text-center max-w-2">|</p>
+              <button class="cursor-pointer flex-1">
                 Buy again
               </button>
             </div>
@@ -208,71 +208,73 @@
 
 
         <div
-        class="my-16 border-y-1 border-y-gray-300 md:border-gray-300 md:border-1 md:rounded-2xl p-10 text-sm shadow-sm lg:w-220 mx-auto md:w-150" 
-      >
-        <div class="flex flex-row gap-26 justify-between items-center">
-          <div class="flex flex-row gap-8">
+          class="my-9 border-y-1 border-y-gray-200 sm:border-gray-200 sm:mx-auto md:border-1 md:rounded-md shadow-xs py-4 text-sm md:max-w-200 md:mx-auto lg:max-w-220 lg:mx-auto
+          "
+        >
+        <div class="flex flex-row sm:gap-20 justify-between items-center border-b-gray-200 border-b-1 pb-4 max-w-300 px-4">
+
+          <div class="flex flex-row sm:gap-13">
             <div class="min-w-25">
-              <p>Order number</p>
-              <p class="text-gray-600">AT48441546</p>
+              <p class="font-medium pb-1">Order number</p>
+              <p class="text-gray-600">WU88191111</p>
             </div>
-            <div class="min-w-25 hidden sm:block">
-              <p>Date placed</p>
-              <p class="text-gray-600">Dec 22, 2020</p>
+            <div class="min-w-25 hidden md:block">
+              <p class="pb-1">Date placed</p>
+              <p class="text-gray-600">Jul 6, 2021</p>
             </div>
-            <div class="min-w-25">
-              <p>Total amount</p>
-              <p>$40.00</p>
+            <div class="min-w-25 font-medium">
+              <p class="pb-1">Total amount</p>
+              <p>$160.00</p>
             </div>
           </div>
-          <div class="xl:flex flex-row gap-5 pr-1 lg:flex md:hidden sm:hidden hidden">
+          <div class="xl:flex flex-row gap-5 pr-1 lg:flex md:hidden sm:hidden hidden text-gray-800 font-medium">
             <button
-              class="min-w-25 border-1 rounded-xl p-2 border-gray-400 hover:bg-gray-200 shadow-sm cursor-pointer"
+              class="min-w-25 border-1 rounded-md p-2 border-gray-300 hover:bg-gray-100 shadow-xs cursor-pointer"
             >
               View Order
             </button>
             <button
-              class="min-w-26 border-1 rounded-xl p-2 border-gray-400 hover:bg-gray-200 shadow-sm cursor-pointer"
+              class="min-w-26 border-1 rounded-md p-2 border-gray-300 hover:bg-gray-100 shadow-xs cursor-pointer"
             >
               View Invoice
             </button>
           </div>
           <span class="sm:block md:block lg:hidden xl:hidden"
-              ><i class="fa fa-ellipsis-v text-gray-500 text-xl hover:text-gray-700 cursor-pointer" aria-hidden="true"></i
-            ></span>
+            ><i class="fa fa-ellipsis-v text-gray-400 text-md hover:text-gray-500" aria-hidden="true"></i
+          ></span>
         </div>
-        <div class="flex flex-row gap-5 py-10">
+        <div class="flex flex-row items-center lg:items-start gap-5 p-4">
           <img
-            class="h-20 max-w-20 object-cover rounded-2xl sm:max-w-[170px] md:sm:max-w-[170px]"
+            class="h-20 max-w-20 object-cover rounded-2xl sm:max-w-[170px] md:w-40 md:h-40"
             src="img/blackbag.jpg" draggable="false"
             alt=""
           />
           <div class="flex w-full flex-col">
             <div class="flex flex-col md:flex-row w-full justify-between">
-              <p class="font-bold pb-3 md:pb-0">Double Stack Clothing Bag</p>
+              <p class="font-semibold pb-3 md:pb-0 text-gray-900">Double Stack Clothing Bag</p>
               <p>$40.00</p>
             </div>
             <div>
-              <p class="pt-3 hidden md:block">
+              <p class="pt-3 text-gray-600 hidden md:block">
                 Save space and protect your favorite clothes in this double-layer garment bag. Each compartment easily holds multiple pairs of jeans or tops, while keeping your items neatly folded throughout your trip.
               </p>
             </div>
           </div>
         </div>
-        <div class="flex flex-col md:flex-row justify-between">
-          <p>
-            <i
-              class="fa fa-check text-white bg-green-400 rounded-full p-1 mr-2"
-              aria-hidden="true"
-            ></i
+        <div class="flex flex-col md:flex-row justify-between px-4 md:items-center">
+            <p class="text-gray-500">
+              <i
+                class="fa fa-check text-xs text-white bg-green-400 rounded-full p-1 mr-2"
+                aria-hidden="true"
+              ></i
             >Delivered on January 5, 2021
           </p>
-          <div class="flex flex-row justify-between text-md pt-10 px-5 md:block md:pt-0 md:px-0">
-            <button class="text-blue-600 hover:text-blue-700 cursor-pointer">
+          <div class="flex flex-row gap-5 border-t-1 text-blue-600 hover:text-blue-700 border-t-gray-200 justify-between font-medium text-md pt-4 mt-6 items-center md:mt-0 md:border-0 md:block md:pt-0 md:px-0">
+            <button class="cursor-pointer flex-1">
               View product
             </button>
-            <p class="hidden md:inline">|</p>
-            <button class="text-blue-600 hover:text-blue-700 cursor-pointer">
+            <p class="md:inline sm:px-3 font-light text-gray-200 flex-1 text-center max-w-2">|</p>
+            <button class="cursor-pointer flex-1">
               Buy again
             </button>
           </div>
